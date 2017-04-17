@@ -1,2 +1,2 @@
-$Block = "write-host('Evil Script Here')"
+$Block = "write-host('Evil Code Here')"
 Start-Process $PSHOME\powershell -ArgumentList "-NoExit -Command $Block" -verb runas
