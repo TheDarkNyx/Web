@@ -1,2 +1,2 @@
-$Block = "whoami;echo Hacked"
+$Block = "echo Evil Script Here"
 Start-Process $PSHOME\powershell -ArgumentList "-NoExit -Command $Block" -verb runas
