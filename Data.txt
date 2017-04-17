@@ -1,3 +1,2 @@
 $Block = "whoami;echo Hacked"
 Start-Process $PSHOME\powershell -ArgumentList "-NoExit -Command $Block" -verb runas
-exit
